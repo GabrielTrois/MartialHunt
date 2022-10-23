@@ -1,8 +1,8 @@
-/*7) Um marciano chegou em uma floresta e se escondeu atrás de uma das 100 árvores do local
-quando viu um caçador. O caçador só tem 5 balas em sua espingarda. Cada vez que ele atira e não
-acerta, o marciano diz: “hahaha estou mais à direita!” ou “hahaha estou mais à esquerda!”, de
-acordo com a sua posição. Se o caçador não conseguir acertar o marciano, ele será levado para
-Marte. Implementar esse jogo para dois jogadores, onde um escolhe a árvore em que o marciano irá
+/*7) Um marciano chegou em uma floresta e se escondeu atrï¿½s de uma das 100 ï¿½rvores do local
+quando viu um caï¿½ador. O caï¿½ador sï¿½ tem 5 balas em sua espingarda. Cada vez que ele atira e nï¿½o
+acerta, o marciano diz: ï¿½hahaha estou mais ï¿½ direita!ï¿½ ou ï¿½hahaha estou mais ï¿½ esquerda!ï¿½, de
+acordo com a sua posiï¿½ï¿½o. Se o caï¿½ador nï¿½o conseguir acertar o marciano, ele serï¿½ levado para
+Marte. Implementar esse jogo para dois jogadores, onde um escolhe a ï¿½rvore em que o marciano irï¿½
 se esconder, e o outro tenta acertar.*/
 
 #include <stdio.h>
@@ -50,6 +50,8 @@ case 1:
                             "   |  __  |    | '    ' |    | |\\ \\| |      | |      |  _| _   |  __ /       \\ \\/  \\/ /     | |    | |\\ \\| |   _.____`.   \n"
                             "  _| |  | |_    \\ \\__/ /    _| |_\\   |_    _| |_    _| |__/ | _| |  \\ \\_      \\  /\\  /     _| |_  _| |_\\   |_ | \\____) |  \n"
                             " |____||____|    `.__.'    |_____|\\____|  |_____|  |________||____| |___|      \\/  \\/     |_____||_____|\\____| \\______.'  \n\n");
+                    
+                    system ("PAUSE");
                     return 0;
                 }
             printf ("You missed, try again (%d bullets left): ", Bleft);
@@ -109,6 +111,7 @@ case 2:
                             "  _| |  | |_    \\ \\__/ /    _| |_\\   |_    _| |_    _| |__/ | _| |  \\ \\_      \\  /\\  /     _| |_  _| |_\\   |_ | \\____) |  \n"
                             " |____||____|    `.__.'    |_____|\\____|  |_____|  |________||____| |___|      \\/  \\/     |_____||_____|\\____| \\______.'  \n\n");
 
+                    system ("PAUSE");
                     return 0;
                 }
             printf ("You missed, try again (%d bullets left): ", Bleft);
@@ -124,6 +127,8 @@ printf (" ____    ____       _       _______   _________  _____       _       __
         "  | |\\  /| |     / ___ \\     |  __ /     | |      | |     / ___ \\     | |\\ \\| |      \\ \\/  \\/ /     | |    | |\\ \\| |   _.____`.   \n"
         " _| |_\\/_| |_  _/ /   \\ \\_  _| |  \\ \\_  _| |_    _| |_  _/ /   \\ \\_  _| |_\\   |_      \\  /\\  /     _| |_  _| |_\\   |_ | \\____) |  \n"
         "|_____||_____||____| |____||____| |___||_____|  |_____||____| |____||_____|\\____|      \\/  \\/     |_____||_____|\\____| \\______.'  \n\n");
+
+        system ("PAUSE");
 return 0;
 }
 
